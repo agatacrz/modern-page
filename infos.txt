@@ -1,7 +1,15 @@
 o que vou precisar
-
+- fontes
 - imagens
-- definir paleta de cores
+- definir paleta de cores [ok]
 
 link do projeto modelo: https://nicepage.com/html-templates/preview/minimalist-modern-interior-72818?device=desktop
+
+:root {
+	--cor1: #CCD5AE
+	--cor2: #E9EDC9
+	--cor3: #FEFAE0
+	--cor4: #FAEDCD
+	--cor5: #D4A373
+}
 
