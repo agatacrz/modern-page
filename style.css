@@ -71,3 +71,32 @@ div.text-elements {
 span.about-texto {
     font-size: 3.5em;
 }
+
+section.sec-textos {
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 90px 60px;
+    font-size: 1em;
+}
+
+div.textos01 {
+    margin: 20px;
+    width: 950px;
+    font-size: 1em;
+    padding-right: 20px;
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+div.textos02 {
+    margin: 20px;
+    width: 550px;
+    border-left: 15px solid #FEFAE0;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 1.4em;
+    text-decoration: underline;
+    font-weight: bold;
+}
