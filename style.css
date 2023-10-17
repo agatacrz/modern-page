@@ -100,3 +100,38 @@ div.textos02 {
     text-decoration: underline;
     font-weight: bold;
 }
+
+section.tres-fotos {
+    background-color: var(--cor3);
+    padding: 50px;
+}
+
+div.elementos {
+    padding: 15px 65px;
+}
+
+div.textos3f {
+    margin: auto;
+    width: 450px;
+}
+
+div.textos3f > h3 {
+    font-weight: normal;
+    font-size: 2.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+div.textos3f > p {
+    font-weight: normal;
+    font-size: 0.9;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+div.imgs3f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
