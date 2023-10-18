@@ -135,3 +135,48 @@ div.imgs3f {
     flex-direction: row;
     justify-content: space-around;
 }
+
+section.room {
+    background-color: var(--cor5);
+    padding: 70px 150px;
+}
+
+div.roomgeral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.imgroom {
+    background-color: var(--cor4);
+    padding: 75px;
+    
+}
+
+div.imgroom > img {
+    width: 400px;
+    box-shadow: 1px 1px 20px 8px rgba(0, 0, 0, 0.219);
+}
+
+div.room-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+div.room-textos > h3 {
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+div.room-textos > h4 {
+    font-size: 1.9em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+div.room-textos > p {
+    line-height: 1.5;
+}
