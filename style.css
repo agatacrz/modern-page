@@ -180,3 +180,37 @@ div.room-textos > h4 {
 div.room-textos > p {
     line-height: 1.5;
 }
+
+section.galeria {
+    background-color: var(--cor3);
+    padding: 80px 150px;
+}
+
+div.galeria-textos {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div.galeria-textos > h3 {
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+div.galeria-textos > p {
+    width: 720px;
+    margin: auto;
+}
+
+div.fotos-galeria {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1050px;
+}
+
+div.fotos-galeria > img {
+    width: 350px;
+}
