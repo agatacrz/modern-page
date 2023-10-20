@@ -220,7 +220,7 @@ footer {
 }
 
 div.divgeraltextos {
-    padding: 95px;
+    padding: 95px 95px 0px 95px;
 }
 
 div.titulos > h3 {
@@ -234,14 +234,46 @@ div.titulos > p {
     margin-bottom: 15px;
 }
 
+div.groupdivsfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: -50px;
+    
+}
+
 div.textosa {
     background-color: var(--cor5);
     padding: 30px;
+    padding-right: 110px;
+}
+
+div.textosa > h4 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+div.textosa > p {
+    font-size: 2em;
+    font-weight: 300;
 }
 
 div.textosb {
     background-color: var(--cor3);
     padding: 30px;
+    padding-right: 110px;
+}
+
+div.textosb > h4 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+div.textosb > p {
+    font-size: 2em;
+    font-weight: 300;
 }
 
 div.footerimg > img {
