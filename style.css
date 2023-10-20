@@ -214,3 +214,36 @@ div.fotos-galeria {
 div.fotos-galeria > img {
     width: 350px;
 }
+
+footer {
+    background-color: var(--cor1);
+}
+
+div.divgeraltextos {
+    padding: 95px;
+}
+
+div.titulos > h3 {
+    font-size: 2.5em;
+    font-weight: 400;
+    width: 530px;
+    margin-bottom: 10px;
+}
+
+div.titulos > p {
+    margin-bottom: 15px;
+}
+
+div.textosa {
+    background-color: var(--cor5);
+    padding: 30px;
+}
+
+div.textosb {
+    background-color: var(--cor3);
+    padding: 30px;
+}
+
+div.footerimg > img {
+    width: 100%;
+}
