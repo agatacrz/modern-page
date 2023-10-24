@@ -224,14 +224,28 @@ div.divgeraltextos {
 }
 
 div.titulos > h3 {
+    color: var(--cor3);
     font-size: 2.5em;
     font-weight: 400;
     width: 530px;
     margin-bottom: 10px;
 }
 
+div.borda {
+    border-top: 3px solid #FEFAE0;
+    width: 85px;
+    position: relative;
+    left: 730px;
+    margin-bottom: 20px;
+}
+
 div.titulos > p {
-    margin-bottom: 15px;
+    color: var(--cor3);
+    margin-bottom: 55px;
+    font-weight: bold;
+    position: relative;
+    left: 730px;
+    width: 300px;
 }
 
 div.groupdivsfooter {
@@ -243,13 +257,16 @@ div.groupdivsfooter {
 }
 
 div.textosa {
-    background-color: var(--cor5);
+    background-color: var(--cor1);
     padding: 30px;
     padding-right: 110px;
+    position: absolute;
+    left: 80px;
+
 }
 
 div.textosa > h4 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: normal;
     margin-bottom: 15px;
 }
@@ -263,10 +280,12 @@ div.textosb {
     background-color: var(--cor3);
     padding: 30px;
     padding-right: 110px;
+    position: absolute;
+    left: 420px;
 }
 
 div.textosb > h4 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: normal;
     margin-bottom: 15px;
 }
@@ -278,4 +297,13 @@ div.textosb > p {
 
 div.footerimg > img {
     width: 100%;
+    margin-top: 140px;
+}
+
+div.textofinal {
+    padding: 50px;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9em;
 }
